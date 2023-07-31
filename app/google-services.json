@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564423211462",
+    "project_id": "vydeon-212fd",
+    "storage_bucket": "vydeon-212fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564423211462:android:e2312385a8d0f058991ac7",
+        "android_client_info": {
+          "package_name": "com.intellicoder.vydeondownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564423211462-9brujg1glad70uu02c1vg1rt8ms1tn9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHfZKFyuuMlcMX4Ghi7lLkArDQLFr5WXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564423211462-9brujg1glad70uu02c1vg1rt8ms1tn9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
