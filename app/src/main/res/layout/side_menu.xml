@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_options_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sidemenu"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="25dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_pic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/profile_pic_dummy"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="3dp" />
+
+            <com.appdev360.jobsitesentry.widget.TextViewCustom
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="UserName"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sentry_location_text_size"
+                android:textStyle="bold"
+                app:ttfName="SourceSansPro-Regular" />
+
+            <com.appdev360.jobsitesentry.widget.TextViewCustom
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="ghulam.jobsitesentrty"
+                android:textColor="@color/white"
+                android:textSize="@dimen/label_text_size_14"
+                app:ttfName="SourceSansPro-Regular" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:visibility="invisible">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_home_item"
+            style="@style/nav_item_style"
+            android:text="@string/home" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white">
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/nav_live_item"
+            style="@style/nav_item_style"
+            android:text="@string/live" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_time_lapse_item"
+            style="@style/nav_item_style"
+            android:text="@string/time_lapse" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_drone_item"
+            style="@style/nav_item_style"
+            android:text="@string/drone_videos" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_arrest_video_item"
+            style="@style/nav_item_style"
+            android:text="@string/video" />
+
+        <View
+            android:id="@+id/alarm_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_alarm_item"
+            style="@style/nav_item_style"
+            android:text="@string/alarms"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white"
+            android:visibility="gone">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_safety_item"
+            style="@style/nav_item_style"
+            android:text="@string/safety"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:visibility="gone">
+
+        </View>
+
+        <TextView
+            android:id="@+id/nav_setting_item"
+            style="@style/nav_item_style"
+            android:text="@string/setting" />
+
+        <View
+            android:id="@+id/alarm_view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/note"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+
+    </LinearLayout>
+
+</ScrollView>

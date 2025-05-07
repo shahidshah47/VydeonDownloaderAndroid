@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="56dp"
+
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <View
+        android:id="@+id/stub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/controller_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stub">
+
+
+        <ImageView
+            android:id="@+id/icon_full_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:srcCompat="@drawable/video_zoom_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#fff"
+
+        android:clickable="true"
+        android:orientation="horizontal"
+
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/controller_layout">
+
+
+        <RelativeLayout
+            android:id="@+id/streights"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:rotation="45"
+            app:layout_constraintEnd_toStartOf="@+id/dignols"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/right"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/up"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble2" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bottom"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/right"
+                android:layout_toEndOf="@+id/up"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble3" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/left"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/up"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dignols"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/streights"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/upLeft"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/upRight"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/upLeft"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble2" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bottomRight"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upRight"
+                android:layout_toEndOf="@+id/upLeft"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble3" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bottomLeft"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upLeft"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/bubble4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/zoomControlls"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/streights"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="@+id/streights"
+            app:layout_constraintTop_toBottomOf="@+id/streights">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/zoomin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/zoomin"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="@dimen/_10sdp"
+                app:srcCompat="@drawable/ic_baseline_zoom_in_24" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/zoomOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/zoomin"
+                android:background="@drawable/zoomout"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:padding="@dimen/_10sdp"
+                app:srcCompat="@drawable/ic_baseline_zoom_out_24" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/capsul"
+            android:text="Reset"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/dignols"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="@+id/dignols"
+            app:layout_constraintTop_toBottomOf="@+id/dignols" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:id="@+id/click_blocker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/controller_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

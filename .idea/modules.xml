@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jobsite-sentry-ANDROID.JobSiteSentry.iml" filepath="$PROJECT_DIR$/.idea/modules/jobsite-sentry-ANDROID.JobSiteSentry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.androidTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.androidTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/jobsite-sentry-ANDROID.JobSiteSentry.app.unitTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.iml" filepath="$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.androidTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.androidTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/shimmer/jobsite-sentry-ANDROID.JobSiteSentry.shimmer.unitTest~1.iml" />
+    </modules>
+  </component>
+</project>

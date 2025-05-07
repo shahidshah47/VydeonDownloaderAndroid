@@ -12,7 +12,6 @@
 #   public *;
 #}
 
-
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
@@ -20,22 +19,3 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-
--keep public class com.intellicoder.vydeondownloader.models.** {
-  public protected *;
-}
-
--keep class com.startapp.** {
-      *;
-}
-
--keep class com.truenet.** {
-      *;
-}
-
--keepattributes Exceptions, InnerClasses, Signature, Deprecated, SourceFile,
-LineNumberTable, *Annotation*, EnclosingMethod
--dontwarn android.webkit.JavascriptInterface
--dontwarn com.startapp.**
-
--dontwarn org.jetbrains.annotations.**

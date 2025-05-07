@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-    <!--    <domain-config cleartextTrafficPermitted="true">-->
-    <!--        <domain includeSubdomains="true">192.168.10.8</domain>-->
-    <!--    </domain-config>-->
-
-    <base-config cleartextTrafficPermitted="true">
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config>
+        <domain-config cleartextTrafficPermitted="true">
+            <domain includeSubdomains="true">https://myjobsitesentry.com/api/</domain>
+            <domain includeSubdomains="true">http://jobsitesentry.vteamslabs.com/api/</domain>
+        </domain-config>
+        <domain includeSubdomains="true">myjobsitesentry.com</domain>
+        <domain includeSubdomains="true">jobsitesentry.vteamslabs.com</domain>
         <trust-anchors>
+            <certificates src="@raw/ca" />
             <certificates src="system" />
         </trust-anchors>
-    </base-config>
-
+    </domain-config>
 </network-security-config>

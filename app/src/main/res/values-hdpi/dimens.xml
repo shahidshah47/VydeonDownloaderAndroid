@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default insets (outer padding) around buttons -->
+    <dimen name="button_inset_vertical_material">6dp</dimen>
+    <dimen name="button_inset_horizontal_material">@dimen/control_inset_material</dimen>
+    <!-- Default inner padding within buttons -->
+    <dimen name="button_padding_vertical_material">@dimen/control_padding_material</dimen>
+    <dimen name="button_padding_horizontal_material">8dp</dimen>
+
+    <!-- Default insets (outer padding) around controls -->
+    <dimen name="control_inset_material">4dp</dimen>
+    <!-- Default inner padding within controls -->
+    <dimen name="control_padding_material">4dp</dimen>
+    <!-- Default rounded corner for controls -->
+    <dimen name="control_corner_material">2dp</dimen>
+
+    <dimen name="sign_up_margin_top">20dp</dimen>
+    <dimen name="sign_in_guide_line_margin_top">70dp</dimen>
+    <dimen name="sign_in_email_layout_margin_top">30dp</dimen>
+    <dimen name="sign_in_email_edit_text_padding">10dp</dimen>
+    <dimen name="forgot__layout_margin_top">15dp</dimen>
+    <dimen name="sign_in_button_padding">15dp</dimen>
+    <dimen name="text_size_18">16sp</dimen>
+    <dimen name="label_text_size_26">20sp</dimen>
+    <dimen name="label_text_size_14">11sp</dimen>
+    <dimen name="send_request_button_margin_top">15dp</dimen>
+    <dimen name="forgot_password_guide_line_margin_top">120dp</dimen>
+    <dimen name="sentry_location_logo_margin">20dp</dimen>
+    <dimen name="sentry_location_text_size">14sp</dimen>
+    <dimen name="sentry_location_bottom_padding">10dp</dimen>
+    <dimen name="setting_icon_margin_right">5dp</dimen>
+    <dimen name="sentry_location_text_height">40dp</dimen>
+    <dimen name="text_size_22">18sp</dimen>
+    <dimen name="shadow_width">2dp</dimen>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="notification_text_size">12sp</dimen>
+
+</resources>

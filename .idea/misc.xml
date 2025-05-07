@@ -1,0 +1,68 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout-v21/fingerprint_dialog_content.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_agreement.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sentry_location.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/alarm_item_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/alarm_notification_fragment.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/android_media_controller.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/arrest_video_fragment_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/bottom_sheet_ptz.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/camera_item_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/change_password_fragment_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/dashboard_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dashboard_item_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/dialog_agreement.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/dialog_network_message_screen.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/drone_fragment_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/drone_listing_fragment.xml" value="0.10885416666666667" />
+        <entry key="app/src/main/res/layout/drone_video_item_adapter.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fingerprint_dialog_backup.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fingerprint_dialog_container.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fingerprint_dialog_content.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/forgot_password_fragment_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_alarm_video.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_camera_stream_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_safety_layout.xml" value="0.10885416666666667" />
+        <entry key="app/src/main/res/layout/fragment_sentry_unit_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_setting_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_time_lapse.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_time_lapse_list.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/item_card_timelap_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/item_loading.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/layout_demo_grid.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/notification_item_adapter.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/notification_setting.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/sentry_location_fragment.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/sentry_location_item_layout.xml" value="0.10885416666666667" />
+        <entry key="app/src/main/res/layout/side_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/sign_in_fragment_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/time_lapse_header_item_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/time_lapse_item_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/time_lapse_player_fragment_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/unit_item_layout.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/webview_fragment_layout.xml" value="0.29807191245440334" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.29791666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

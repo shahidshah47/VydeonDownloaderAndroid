@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "564423211462",
-    "project_id": "vydeon-212fd",
-    "storage_bucket": "vydeon-212fd.appspot.com"
+    "project_number": "938869594553",
+    "firebase_url": "https://jobsitesentry-be8b5.firebaseio.com",
+    "project_id": "jobsitesentry-be8b5",
+    "storage_bucket": "jobsitesentry-be8b5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:564423211462:android:e2312385a8d0f058991ac7",
+        "mobilesdk_app_id": "1:938869594553:android:14ebfe1673be197618be68",
         "android_client_info": {
-          "package_name": "com.intellicoder.vydeondownloader"
+          "package_name": "com.appdev360.jobsitesentry"
         }
       },
       "oauth_client": [
         {
-          "client_id": "564423211462-9brujg1glad70uu02c1vg1rt8ms1tn9e.apps.googleusercontent.com",
+          "client_id": "938869594553-p4esnoro8far5jrci1k1pv68muu32cth.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAHfZKFyuuMlcMX4Ghi7lLkArDQLFr5WXU"
+          "current_key": "AIzaSyD2-3leSYegGQlXlf5au5NN4TqjUqV9QZ0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "564423211462-9brujg1glad70uu02c1vg1rt8ms1tn9e.apps.googleusercontent.com",
+              "client_id": "938869594553-p4esnoro8far5jrci1k1pv68muu32cth.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "938869594553-2kpdble8k21qtr98804or2odvqip0s6a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jobsitesentry.jobsitesentry"
+              }
             }
           ]
         }
